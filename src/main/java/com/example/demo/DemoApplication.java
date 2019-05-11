@@ -33,4 +33,9 @@ public class DemoApplication {
 		return "The Fourth Commit";
 	}
 
+	@GetMapping("/fiveth")
+	public String fun4(){
+		return "The Fiveth-Test Commit";
+	}
+
 }
