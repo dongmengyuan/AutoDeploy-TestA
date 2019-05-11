@@ -18,4 +18,9 @@ public class DemoApplication {
 		return "The First Commit";
 	}
 
+	@GetMapping("/second")
+	public String fun1(){
+		return "The Second Commit";
+	}
+
 }
